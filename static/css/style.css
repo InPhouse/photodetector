@@ -1,0 +1,52 @@
+*{
+text-align:center;
+margin:0;
+padding:0;
+font-family:sans-serif;
+}
+
+
+header{
+padding:2%;
+background:#777;
+color:#fff;
+}
+
+header h1::first-letter{
+color:red;
+}
+
+form{
+width:40%;
+margin:5% auto;
+}
+
+
+
+
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+
+
+
+
+
