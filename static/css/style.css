@@ -45,6 +45,16 @@ margin:5% auto;
   display: block;
 }
 
+#dialog{
+position:fixed;
+right:0;
+top:0;
+bottom:0;
+width:70vh;
+color:#fff;
+transition:1s ease-in-out;
+}
+
 
 
 
