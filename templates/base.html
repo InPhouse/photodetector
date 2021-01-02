@@ -1,0 +1,23 @@
+
+
+<!doctype html>
+<title>{% block title %}{% endblock %} - ImageDetector</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+<section class="content">
+  <header>
+    {% block header %} <a class="text-success" href="/"><h1>Photo Detector</h1></a> {% endblock %}
+  </header>
+
+{% block form %}{% endblock %}
+{% block content %} {% endblock %}
+
+</section>
+
+{% block footer %} 
+{% endblock %}
+
+
+
+
