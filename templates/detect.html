@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<table class="table">
+<thead>
+<tr>
+<th class="text-center">Properties</th>
+<th class="text-center">Values</th>
+</tr>
+</thead>
+{% for i in predict %}
+      {% set item_1 = predict[loop.index-1] %}
+      {% set item_2 = eachProb[loop.index-1] %}
+     <tr>
+           <td> {{ item_1 }} </td>
+           <td>  {{ item_2 }} </td>
+    </tr>
+{% endfor %}
+  </table>
+
+
+
+
+{% endblock %}
